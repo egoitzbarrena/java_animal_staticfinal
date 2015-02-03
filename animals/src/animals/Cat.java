@@ -1,6 +1,6 @@
 package animals;
 
-public class Cat extends Animal {
+final public class Cat extends Animal {
     public static void testClassMethod() {
         System.out.println("The static method in Cat");
     }
